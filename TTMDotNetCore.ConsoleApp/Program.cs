@@ -1,5 +1,6 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
+using TTMDotNetCore.ConsoleApp;
 
 Console.WriteLine("Hello, World!");
 
@@ -10,7 +11,7 @@ Console.WriteLine("Hello, World!");
 // F10
 // F11
 
-SqlConnectionStringBuilder stringBuilder = new SqlConnectionStringBuilder();
+/* SqlConnectionStringBuilder stringBuilder = new SqlConnectionStringBuilder();
 stringBuilder.DataSource = ".";
 stringBuilder.InitialCatalog = "TTMDotNetCore";
 stringBuilder.UserID = "sa";
@@ -33,6 +34,14 @@ foreach (DataRow dr in dt.Rows)
     Console.WriteLine("Blog Content => " + dr["BlogContent"]);
 }
 
-connection.Close();
+connection.Close();*/
+
+AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+// adoDotNetExample.Read();
+//adoDotNetExample.Create("title 2", "author 2", "content 2");
+//adoDotNetExample.Create("title 3", "author 3", "content 3");
+// adoDotNetExample.Update(1, "title 1", "author 1", "content 1");
+// adoDotNetExample.Delete(3);
+adoDotNetExample.Edit(1);
 
 Console.ReadLine();
