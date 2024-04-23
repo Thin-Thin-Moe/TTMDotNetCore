@@ -2,8 +2,7 @@
 using System.Data.SqlClient;
 using TTMDotNetCore.ConsoleApp;
 
-Console.WriteLine("Hello, World!");
-
+Console.WriteLine("Hello World!");
 // nuget
 // SqlConnection
 
@@ -36,12 +35,15 @@ foreach (DataRow dr in dt.Rows)
 
 connection.Close();*/
 
-AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+// AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 // adoDotNetExample.Read();
-//adoDotNetExample.Create("title 2", "author 2", "content 2");
-//adoDotNetExample.Create("title 3", "author 3", "content 3");
+// adoDotNetExample.Create("title 2", "author 2", "content 2");
+// adoDotNetExample.Create("title 3", "author 3", "content 3");
 // adoDotNetExample.Update(1, "title 1", "author 1", "content 1");
 // adoDotNetExample.Delete(3);
-adoDotNetExample.Edit(1);
+// adoDotNetExample.Edit(1);
+
+DapperExample dapperExample = new DapperExample();
+dapperExample.Run();
 
 Console.ReadLine();
