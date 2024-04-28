@@ -14,11 +14,11 @@ internal class EFCoreExample
     private readonly AppDbContext db = new AppDbContext();
     public void Run()
     {
-        // Read();
+        Read();
         // Edit(1);
         // Create("title 5", "author 5", "content 5");
         // Update(7,"title 7", "author 7", "content 7");
-        Delete(5);
+        // Delete(5);
     }
 
     private void Read()
