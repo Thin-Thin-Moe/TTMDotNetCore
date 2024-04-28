@@ -6,8 +6,10 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TTMDotNetCore.ConsoleApp.Dtos;
+using TTMDotNetCore.ConsoleApp.Services;
 
-namespace TTMDotNetCore.ConsoleApp;
+namespace TTMDotNetCore.ConsoleApp.DapperExamples;
 
 internal class DapperExample
 {
@@ -41,7 +43,7 @@ internal class DapperExample
     private void Edit(int id)
     {
         using IDbConnection db = new SqlConnection(ConnectionStrings.SqlConnectionStringBuilder.ConnectionString);
-        var item = db.Query<BlogDto>("select * from tbl_blog where blogid = @BlogId", new BlogDto { BlogId = id}).FirstOrDefault();
+        var item = db.Query<BlogDto>("select * from tbl_blog where blogid = @BlogId", new BlogDto { BlogId = id }).FirstOrDefault();
 
         if (item is null)
         {

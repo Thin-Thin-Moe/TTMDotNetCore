@@ -6,8 +6,9 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TTMDotNetCore.ConsoleApp.Dtos;
 
-namespace TTMDotNetCore.ConsoleApp;
+namespace TTMDotNetCore.ConsoleApp.EFCoreExamples;
 
 internal class EFCoreExample
 {

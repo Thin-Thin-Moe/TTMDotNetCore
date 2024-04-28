@@ -1,6 +1,6 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
-using TTMDotNetCore.ConsoleApp;
+using TTMDotNetCore.ConsoleApp.EFCoreExamples;
 
 Console.WriteLine("Hello World!");
 // nuget
