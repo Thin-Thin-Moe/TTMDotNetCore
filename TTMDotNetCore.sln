@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TTMDotNetCore.ConsoleApp", "TTMDotNetCore.ConsoleApp\TTMDotNetCore.ConsoleApp.csproj", "{FDCBA2A8-6C7F-4C05-8707-A182FD988487}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTMDotNetCore.RestApi", "TTMDotNetCore.RestApi\TTMDotNetCore.RestApi.csproj", "{FFB0D894-DE37-4BFF-8635-63040B8FC191}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TTMDotNetCore.RestApi", "TTMDotNetCore.RestApi\TTMDotNetCore.RestApi.csproj", "{FFB0D894-DE37-4BFF-8635-63040B8FC191}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -15,5 +15,5 @@ internal class AppDbContext : DbContext
         optionsBuilder.UseSqlServer(ConnectionStrings.SqlConnectionStringBuilder.ConnectionString);
     }
 
-    public DbSet<BlogDto> Blogs { get; set; }
+    public DbSet<BlogModel> Blogs { get; set; }
 }
