@@ -33,6 +33,4 @@ public class DapperService
         var result = db.Execute(query, param);
         return result;
     }
-
-
 }
