@@ -14,7 +14,6 @@ public class AdoDotNetService
         _connectionString = connectionString;
     }
 
-    // public List<T> Query<T>(string query, AdoDotNetParameter[]? parameters = null)
     public List<T> Query<T>(string query, params AdoDotNetParameter[]? parameters)
     {
         SqlConnection connection = new SqlConnection(_connectionString);
@@ -88,4 +87,3 @@ public class AdoDotNetParameter {
     public string Name { get; set; }
     public object Value { get; set; }
 }
-

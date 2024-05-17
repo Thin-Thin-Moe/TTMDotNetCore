@@ -48,7 +48,7 @@ namespace TTMDotNetCore.RestApi.Controllers
         public IActionResult Update(int id, BlogModel blog)
         {
             var item = _content.Blogs.FirstOrDefault(x => x.BlogId == id);
-            if (blog is null)
+            if (item is null)
             {
                 return NotFound("No data found.");
             }

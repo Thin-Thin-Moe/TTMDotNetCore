@@ -79,7 +79,7 @@ namespace TTMDotNetCore.RestApi.Controllers
             return Ok(message);
         }
 
-        [HttpPatch]
+        [HttpPatch("{id}")]
         public IActionResult PatchBlog(int id, BlogModel blog)
         {
             string query = @"UPDATE [dbo].[Tbl_Blog]
