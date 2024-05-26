@@ -13,11 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TTMDotNetCore.RestApiWithNL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TTMDotNetCore.ConsoleAppHttpClient", "TTMDotNetCore.ConsoleAppHttpClient\TTMDotNetCore.ConsoleAppHttpClient.csproj", "{AD5E72C5-2560-40EE-AFB4-14942ABA7745}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTMDotNetCore.ConsoleAppHttpClientExamples", "TTMDotNetCore.ConsoleAppHttpClientExamples\TTMDotNetCore.ConsoleAppHttpClientExamples.csproj", "{AC85F112-5957-4B68-8099-2F951BB2467E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TTMDotNetCore.ConsoleAppHttpClientExamples", "TTMDotNetCore.ConsoleAppHttpClientExamples\TTMDotNetCore.ConsoleAppHttpClientExamples.csproj", "{AC85F112-5957-4B68-8099-2F951BB2467E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTMDotNetCore.ConsoleAppRestClientExample", "TTMDotNetCore.ConsoleAppRestClientExample\TTMDotNetCore.ConsoleAppRestClientExample.csproj", "{8BC3B072-5D40-47B0-BF41-DC145416863E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TTMDotNetCore.ConsoleAppRestClientExample", "TTMDotNetCore.ConsoleAppRestClientExample\TTMDotNetCore.ConsoleAppRestClientExample.csproj", "{8BC3B072-5D40-47B0-BF41-DC145416863E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTMDotNetCore.PizzaApi", "TTMDotNetCore.PizzaApi\TTMDotNetCore.PizzaApi.csproj", "{CC54D7CC-61CE-4C1F-ADC0-11B9CB0DA70F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TTMDotNetCore.PizzaApi", "TTMDotNetCore.PizzaApi\TTMDotNetCore.PizzaApi.csproj", "{CC54D7CC-61CE-4C1F-ADC0-11B9CB0DA70F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTMDotNetCore.ConsoleAppRefitExamples", "TTMDotNetCore.ConsoleAppRefitExamples\TTMDotNetCore.ConsoleAppRefitExamples.csproj", "{F0862C46-635D-442E-8378-C254EFDAB174}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{CC54D7CC-61CE-4C1F-ADC0-11B9CB0DA70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC54D7CC-61CE-4C1F-ADC0-11B9CB0DA70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC54D7CC-61CE-4C1F-ADC0-11B9CB0DA70F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0862C46-635D-442E-8378-C254EFDAB174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0862C46-635D-442E-8378-C254EFDAB174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0862C46-635D-442E-8378-C254EFDAB174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0862C46-635D-442E-8378-C254EFDAB174}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
